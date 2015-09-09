@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" ng-app>
+<html lang="en">
 <head>
 	<meta charset="utf-8">
 	<title>Google Phone Gallery</title>
@@ -8,10 +8,11 @@
 	<!--[if IE]>
 	  <link href="stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
 	<![endif]-->
-	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.min.js"></script>
-
+	<!--script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.min.js"></script-->
+	<script src="../bower_components/angular/angular.js"></script>
+	<script src="js/controllers.js"></script>
 </head>
-<body>
+<body ng-app="myApp">
 	<div class="row">
 		<form>
 			<label for="info-freands">My Freands</label>
@@ -23,8 +24,8 @@
 		</ul>
 
 	</div>
-	
-	<div class="row">
+
+	<div class="row" ng-controller="myCtrl">
 		<input type="text" ng-model="name">
 		hello {{name}}
 	</div>
