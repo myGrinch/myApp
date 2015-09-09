@@ -2,10 +2,7 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-
+@import "compass/reset";
 .row { 
 	overflow: hidden;
-	margin: 0 0 20px;
-	text-align: left;
-  font-size: 21px;
 }
