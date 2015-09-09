@@ -3,10 +3,10 @@
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 .row {
-    overflow: hidden;
-    margin: 0 0 20px;
-    text-align: left;
-    font-size: 21px;
+  overflow: hidden;
+  margin: 0 0 20px;
+  text-align: left;
+  font-size: 21px;
 }
 
 /*# sourceMappingURL=screen.css.map */
