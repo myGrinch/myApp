@@ -1,0 +1,21 @@
+body {
+  display: block;
+  overflow: hidden;
+  float: left;
+  margin: 0 auto;
+  padding: 0; }
+
+.row {
+  overflow: hidden;
+  margin-bottom: 20px;
+  text-align: left;
+  font-size: 20px; }
+
+p {
+  margin: 0; }
+
+a {
+  color: red;
+  border: 1px solid #000; }
+
+/*# sourceMappingURL=style.css.map */
