@@ -7,10 +7,10 @@ module.exports = function(grunt) {
     // 1. Вся настройка находится здесь
 
     grunt.initConfig({
-        libsass: {
-            src: 'scss/style.scss',
-            dist: 'css/style.css',
-        },
+        //libsass: {
+           // src: 'scss/style.scss',
+            //dist: 'css/style.css',
+        //},
 
         sass: {
             options: {

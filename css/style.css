@@ -16,6 +16,7 @@ p {
 
 a {
   color: red;
-  border: 1px solid #000; }
+  border: 1px solid #000;
+  text-decoration: none; }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,33 +1,27 @@
-<!doctype html>
-<html lang="en">
+
+<html lang="en" ng-app="myApp">
 <head>
 	<meta charset="utf-8">
 	<title>Google Phone Gallery</title>
-	<link href="stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
-	<link href="stylesheets/print.css" media="print" rel="stylesheet" type="text/css" />
+	<link href="css/style.css" media="screen, projection" rel="stylesheet" type="text/css" />
 	<!--[if IE]>
 	  <link href="stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
 	<![endif]-->
-	<!--script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.min.js"></script-->
-	<script src="../bower_components/angular/angular.js"></script>
-	<script src="js/controllers.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.min.js"></script>
+	<!--script src="bower_components/angular/angular.js"></script-->
+	<script src="js/controller.js"></script>
 </head>
-<body ng-app="myApp">
-	<div class="row">
-		<form>
-			<label for="info-freands">My Freands</label>
-			<select name="" id="info-freands"></select>
-		</form>
+<body >
+{{1+2}}
+	
 
-		<ul>
-			<li>{{2+2}}</li>
-		</ul>
 
-	</div>
-
-	<div class="row" ng-controller="myCtrl">
-		<input type="text" ng-model="name">
-		hello {{name}}
+	<div ng-controller="BookController">
+	    Id: <span ng-bind="book.id"></span>
+	    <br/>
+	    Name:<input type="text" ng-model="book.name" />
+	    <br/>
+	    Author: <input type="text" ng-model="book.author" />
 	</div>
 
 	
